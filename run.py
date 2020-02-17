@@ -20,25 +20,7 @@ def test():
         drone.up(50)
         sleep(1)
         drone.up(0)
-
-        sleep(3)
-        drone.flip_forward()
-        sleep(3)
-
-        drone.forward(50)
-        sleep(2)
-        drone.forward(0)
-
-        drone.clockwise(50)
         sleep(5)
-        drone.clockwise(0)
-
-        sleep(1)
-        drone.forward(50)
-        sleep(2)
-        drone.forward(0)
-        sleep(1)
-
         drone.land()
         sleep(5)
     except Exception as ex:
